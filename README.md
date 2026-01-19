@@ -1,134 +1,135 @@
 # 🛡️ SecCheckmate
 
+> **Professional-Grade Security Assessment Framework - 200+ Tests Across 5 Domains**
+
 <div align="center">
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/seccheckmate?style=social&label=Star%20us%21)](https://github.com/yourusername/seccheckmate)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/amitgy/seccheckmate)
+[![GitHub Stars](https://img.shields.io/github/stars/amitgy/seccheckmate?style=social&label=Star%20us%21)](https://github.com/amitgy/seccheckmate)
 
-**The Industry-Standard Security Assessment Framework for 2026 and Beyond**
+**Industry-Standard Security Assessment Framework**
 
-[⚡ Quick Start](#-quick-start) • [📚 Docs](#-documentation) • [🎯 Features](FEATURES.md) • [🤝 Contribute](#-contributing)
+[🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [📥 Install](#-installation) • [⚖️ Legal](LICENSE) • [🤝 Contribute](#-contributing)
 
 </div>
 
 ---
 
-## Why SecCheckmate?
+## ⚠️ LEGAL DISCLAIMER
 
-SecCheckmate is a professional-grade, **offline-first** security assessment tool built to become the **industry standard** for security evaluations. It's designed for security professionals who demand:
+**SecCheckmate is for AUTHORIZED SECURITY TESTING ONLY.**
 
-✅ **Thoroughness** - 200+ comprehensive security tests  
-✅ **Consistency** - Standardized assessment procedures  
-✅ **Efficiency** - Fast response input (y/n/na)  
-✅ **Professionalism** - Enterprise-grade reporting  
-✅ **Simplicity** - No external dependencies  
-✅ **Privacy** - 100% offline, no data collection  
+- ✅ Use only on systems you own or have explicit written permission to test
+- ✅ Comply with all applicable laws and regulations
+- ✅ Use for defensive/authorized security purposes only
 
-Perfect for penetration testers, security engineers, firmware analysts, cloud architects, AI/ML specialists, and security auditors.
+**Unauthorized testing is ILLEGAL.** Read [LICENSE](LICENSE) file for full legal terms before using.
 
-**Perfect for:**
-- 🔒 Penetration testers
-- 👨‍💼 Security engineers  
-- 📱 Firmware analysts
-- ☁️ Cloud architects
-- 🤖 AI/ML security specialists
-- 🌐 Web application developers
-- 🏢 Security auditors
+---
 
-## 🎯 Features
+## 🎯 Why SecCheckmate?
 
-✅ **Comprehensive Checklists** - Detailed security assessment checklists for multiple domains  
-✅ **Offline First** - No internet connection required; runs entirely locally  
-✅ **Professional Reporting** - Generate polished Markdown reports with statistics and severity analysis  
-✅ **Interactive CLI** - User-friendly command-line interface  
-✅ **Customizable** - Easily modify checklists to fit your needs  
-✅ **Multiple Domains** - Assess Web Apps, AWS Cloud, WiFi, Firmware, and LLM security  
-✅ **Evidence Tracking** - Capture detailed notes and evidence for each test  
-✅ **Pass Rate Analysis** - Automatic calculation of compliance metrics  
+SecCheckmate solves a critical gap in security: **there's no standardized way to conduct security assessments.**
 
-## 📋 Supported Checklists
+Every organization does it differently:
+- ❌ Scattered spreadsheets
+- ❌ Inconsistent methodologies
+- ❌ Non-reproducible results
+- ❌ Poor documentation
+- ❌ Subjective severity ratings
 
-### 1. **Web Application Security** 🌐
-35+ comprehensive tests covering:
-- Authentication & Authorization (SQL injection, XSS, CSRF)
-- Input Validation & Output Encoding
-- API Security & Rate Limiting
-- Sensitive Data Protection
-- SSL/TLS Configuration
-- Security Headers (CSP, HSTS, etc.)
-- Business Logic Flaws
-- And more...
+**SecCheckmate changes this:**
 
-### 2. **AWS Cloud Security** ☁️
-40+ tests for cloud infrastructure assessment:
-- IAM Policies & Access Control
-- EC2 Security Groups & Network ACLs
-- S3 Bucket Permissions & Encryption
-- RDS Database Security
-- CloudTrail & Monitoring
-- VPC Configuration
-- KMS & Encryption Management
-- Lambda Security
-- And more...
+✅ **Standardized** - Same framework, consistent results  
+✅ **Comprehensive** - 200+ tests across 5 critical domains  
+✅ **Offline-First** - 100% private, no data collection  
+✅ **Professional** - Enterprise-grade reports  
+✅ **Simple** - Just answer y/n/na questions  
+✅ **Fast** - Complete assessment in minutes  
 
-### 3. **WiFi Network Security** 📡
-38+ tests for wireless security:
-- Encryption Protocols (WPA3/WPA2)
-- Authentication Mechanisms
-- Rogue AP Detection
-- MITM Attack Prevention
-- DoS Resilience
-- Physical Security
-- Configuration Hardening
-- And more...
+### 👥 Perfect For:
 
-### 4. **Firmware Security** 🔧
-44+ tests for embedded systems:
-- Secure Boot & Code Integrity
-- Debug Interface Protection
-- Hardcoded Credentials
-- Buffer Overflow Protection
-- Cryptographic Implementation
-- Reverse Engineering Protection
-- Supply Chain Security
-- And more...
+- 🔒 **Penetration Testers** - Comprehensive assessment checklists
+- 👨‍💼 **Security Engineers** - Standardized security audits
+- ☁️ **Cloud Architects** - AWS security compliance
+- 📱 **Firmware Analysts** - Embedded systems security
+- 🤖 **AI/ML Security** - LLM security testing
+- 🌐 **Web Developers** - Application security reviews
+- 🏢 **Security Auditors** - Compliance documentation
 
-### 5. **LLM/AI Security** 🤖
-44+ tests for AI/ML systems:
-- Prompt Injection Vulnerabilities
-- Data Leakage Prevention
-- Jailbreak Resistance
-- API Security
-- Privacy & GDPR Compliance
-- Data Encryption
-- Model Integrity
-- And more...
+---
 
-## 🚀 Quick Start
+## ✨ Features at a Glance
 
-### Install (30 seconds)
+### 📋 200+ Comprehensive Tests
+
+| Category | Tests | Coverage |
+|----------|-------|----------|
+| 🌐 Web App Security | 35 | OWASP, APIs, Authentication |
+| ☁️ AWS Cloud | 40 | IAM, EC2, S3, RDS, Lambda |
+| 📡 WiFi Security | 38 | WPA2/3, Encryption, APs |
+| 🔧 Firmware | 44 | Boot, Debug, Credentials |
+| 🤖 LLM/AI Security | 44 | Prompts, Data, Privacy |
+
+### 🚀 Core Capabilities
+
+- ✅ **Interactive CLI** - User-friendly command-line interface
+- ✅ **Evidence Tracking** - Capture findings with detailed notes
+- ✅ **Professional Reports** - Auto-generated markdown with statistics
+- ✅ **Offline Only** - No internet, no external calls, no data collection
+- ✅ **Customizable** - Easy to modify and extend checklists
+- ✅ **Production Code** - Enterprise-grade Python implementation
+- ✅ **Zero Dependencies** - Only PyYAML & colorama
+
+---
+
+## 🚀 Quick Start (5 Minutes)
+
+### Prerequisites
+- **Python 3.10+** (required)
+- **macOS, Linux, or Windows**
+
+### Installation
+
 ```bash
-git clone https://github.com/yourusername/seccheckmate.git
+# 1. Clone repository
+git clone https://github.com/amitgy/seccheckmate.git
 cd seccheckmate
+
+# 2. Create virtual environment (recommended)
+python3 -m venv venv
+source venv/bin/activate     # macOS/Linux
+# OR
+venv\Scripts\activate         # Windows PowerShell
+# OR  
+venv\Scripts\activate.bat     # Windows CMD
+
+# 3. Install dependencies
+pip install --upgrade pip
 pip install -r requirements.txt
+
+# 4. Run assessment
+python seccheckmate.py
 ```
 
-### Run (2 minutes)
+### Run Your First Assessment
+
 ```bash
 python seccheckmate.py
-
-# Then:
-# 1. Select assessment (1-5)
-# 2. Answer quickly: y/n/na
-# 3. Add evidence (optional)
-# 4. Get professional report!
 ```
 
-### Example Assessment Flow
+**Then:**
+1. Select assessment category (1-5)
+2. Answer questions with: `y` / `n` / `na` (or press Enter for N/A)
+3. Add evidence notes (optional)
+4. Get professional report in `reports/` folder!
+
+### Example Output
+
 ```
-🛡️ SecCheckmate - Professional Security Assessment Framework
+🛡️ SecCheckmate - Security Assessment Framework
 
 Options:
   1. 🚀 Run Security Assessment
@@ -139,259 +140,393 @@ Options:
 
 Select option (1-5): 1
 
-Available Security Assessments:
-  1. cloud_aws
-  2. firmware
-  3. llm
-  4. web
-  5. wifi
+Available Assessments:
+  1. cloud_aws (40 tests)
+  2. firmware (44 tests)
+  3. llm (44 tests)
+  4. web (35 tests)
+  5. wifi (38 tests)
 
-Select assessment (1-5): 2
+Select (1-5): 1
 
-Assessment: Firmware Security
-Total Tests: 44
+📊 AWS Cloud Security - 40 Tests
 
-[  1/44] 🔴 FW-01          Secure Boot Enforcement
-    Status [y/yes=PASS, n/no=FAIL, na=N/A]: y
-    📋 Evidence/Notes (optional, press Enter to skip): Verified in BIOS settings
+[  1/40] IAM Root Account Usage
+Response [y/n/na]: n
+Evidence: Root account has unused access keys
 
-[  2/44] 🔴 FW-02          Firmware Update Signature Validation
-    Status [y/yes=PASS, n/no=FAIL, na=N/A]: y
-    📋 Evidence/Notes (optional, press Enter to skip): 
-
-    Progress: ████████████░░░░░░░░░░░░░░░░░░░░░░░░ 50%
-
-✅ Assessment Complete
+✅ Assessment Complete!
 Pass Rate: 87.5%
-Report saved: reports/report_20260119_143022.md
+Report: reports/report_20260119_143022.md
 ```
 
-## 📊 Report Generation
+---
 
-After completing a checklist, SecCheckmate automatically generates a comprehensive Markdown report with:
+## 📥 Installation Details
 
-- **Summary Statistics** - Total tests, pass/fail/N/A counts with percentages
-- **Severity Breakdown** - Findings organized by Critical, High, Medium, Low, and Info
-- **Detailed Findings** - Each test result with description, status, and evidence notes
-- **Professional Formatting** - Clean, easy-to-read HTML-compatible Markdown
-- **Timestamp & Metadata** - Date, organization, and version information
+### System Requirements
 
-### Example Report Structure:
+- **Python:** 3.10+ (required, not 3.9 or earlier)
+- **OS:** macOS, Linux, or Windows
+- **Disk:** ~50 MB
+- **Internet:** Not required (100% offline)
+
+### Installation Methods
+
+**Method 1: Virtual Environment (Recommended)**
+
+```bash
+git clone https://github.com/amitgy/seccheckmate.git
+cd seccheckmate
+
+python3 -m venv venv
+source venv/bin/activate  # macOS/Linux
+# venv\Scripts\activate  # Windows
+
+pip install --upgrade pip
+pip install -r requirements.txt
+
+python seccheckmate.py
+```
+
+**Method 2: Direct Installation**
+
+```bash
+git clone https://github.com/amitgy/seccheckmate.git
+cd seccheckmate
+
+pip install PyYAML>=6.0 colorama>=0.4.6
+python seccheckmate.py
+```
+
+**Method 3: Development Setup**
+
+```bash
+git clone https://github.com/amitgy/seccheckmate.git
+cd seccheckmate
+
+python3 -m venv venv
+source venv/bin/activate
+
+pip install --upgrade pip
+pip install -r requirements.txt
+
+chmod +x seccheckmate.py  # macOS/Linux
+```
+
+### Platform-Specific Setup
+
+**macOS**
+```bash
+# Using Homebrew
+brew install python3
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+**Linux (Ubuntu/Debian)**
+```bash
+sudo apt update
+sudo apt install python3 python3-venv python3-pip
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+**Windows (PowerShell)**
+```powershell
+python -m venv venv
+venv\Scripts\Activate.ps1
+
+pip install -r requirements.txt
+python seccheckmate.py
+```
+
+**Windows (Command Prompt)**
+```cmd
+python -m venv venv
+venv\Scripts\activate.bat
+
+pip install -r requirements.txt
+python seccheckmate.py
+```
+
+### Verify Installation
+
+```bash
+# Test Python version
+python --version  # Should show 3.10+
+
+# Test dependencies
+python -c "import yaml; import colorama; print('✅ OK')"
+
+# Run application
+python seccheckmate.py
+# Press 5 to exit
+```
+
+### Troubleshooting
+
+**Python Not Found**
+```bash
+# Check your Python version
+python3 --version
+
+# If not installed:
+# macOS: brew install python3
+# Linux: sudo apt install python3
+# Windows: Download from https://www.python.org/downloads/
+```
+
+**Module Import Error**
+```bash
+# Ensure virtual environment is activated
+source venv/bin/activate  # macOS/Linux
+# venv\Scripts\activate   # Windows
+
+# Reinstall dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+**Permission Denied (macOS/Linux)**
+```bash
+chmod +x seccheckmate.py
+python3 seccheckmate.py
+```
+
+**Virtual Environment Issues**
+```bash
+# Remove and recreate
+rm -rf venv/
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+---
+
+## 📊 Test Coverage
+
+### 🌐 Web Application Security (35 tests)
+Authentication & authorization, SQL injection, XSS, CSRF, CORS, API security, SSL/TLS, security headers, business logic, dependencies
+
+### ☁️ AWS Cloud Security (40 tests)
+IAM policies, EC2 security groups, S3 permissions, RDS encryption, CloudTrail, VPC, KMS, Lambda roles, DynamoDB
+
+### 📡 WiFi Network Security (38 tests)
+WPA2/WPA3, PSK testing, rogue APs, MITM prevention, deauth resilience, WPS/UPnP, guest networks, physical security, monitoring
+
+### 🔧 Firmware Security (44 tests)
+Secure boot, code integrity, rollback protection, hardcoded credentials, debug interfaces (JTAG/UART/SWD), buffer overflow, crypto, reverse engineering, supply chain
+
+### 🤖 LLM/AI Security (44 tests)
+Prompt injection, training data leakage, jailbreak resistance, RAG validation, API security, encryption, GDPR, model integrity, bias/fairness
+
+---
+
+## 🎯 Severity Classification
+
+SecCheckmate classifies findings using this framework:
+
+### 🔴 **CRITICAL** - Immediate Action (24-48 hours)
+- Complete system compromise possible
+- Examples: Unauthenticated access, hardcoded credentials, SQL injection
+- **Assumption:** Allows full attacker control
+
+### 🟠 **HIGH** - Urgent (1-2 weeks)
+- Major security bypass or breach possible
+- Examples: Weak authentication, missing encryption, privilege escalation
+- **Assumption:** Bypasses major security controls
+
+### 🟡 **MEDIUM** - Plan (1 month)
+- Requires exploitation chain or conditions
+- Examples: Missing headers, weak policies, info disclosure
+- **Assumption:** Could chain with other vulnerabilities
+
+### 🟢 **LOW** - Maintenance
+- Minor impact, best practice gaps
+- Examples: Outdated non-critical software, configuration hardening
+- **Assumption:** Limited impact
+
+### 🔵 **INFO** - Future Planning
+- Recommendations and best practices
+- Examples: Training, monitoring, documentation
+- **Assumption:** Not a vulnerability
+
+---
+
+## 📄 Report Format
+
+SecCheckmate generates professional markdown reports:
+
 ```markdown
-# Security Assessment Report
+# 🛡️ Security Assessment Report
 
 **Category:** AWS Cloud Security
-**Date:** 2026-01-19 12:05:30
-**Organization:** ACME Corp
+**Organization:** Your Org
+**Date:** January 19, 2026
+**Tool:** SecCheckmate v1.0.0
 
-## Summary
+## Executive Summary
 
-| Metric | Count | Percentage |
-|--------|-------|-----------|
-| Total Tests | 40 | 100% |
+Assessment evaluated 40 security controls.
+
+### Key Metrics
+| Metric | Count | % |
+|--------|-------|---|
 | ✅ Passed | 35 | 87.5% |
 | ❌ Failed | 3 | 7.5% |
 | ⏭️ N/A | 2 | 5.0% |
 
+### Risk Assessment
+- **Critical:** 0
+- **High:** 1
+
 ## Findings by Severity
 
-### Critical (1 issues)
-- **AWS-01:** Root Account Access
+### 🟠 High (1)
+- AWS-15: S3 Bucket Public Access
 
-...
+### 🟡 Medium (2)
+- AWS-08: CloudTrail Not Enabled
+- AWS-12: VPC Flow Logs Missing
 ```
+
+---
+
+## 🔧 Configuration
+
+Edit `config/settings.yaml`:
+
+```yaml
+organization: "Your Organization"
+version: "1.0"
+```
+
+---
 
 ## 📁 Project Structure
 
 ```
 seccheckmate/
-├── seccheckmate.py           # Main application (300+ lines)
+├── seccheckmate.py           # Main application
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # This file
-├── LICENSE                   # MIT License
+├── LICENSE                   # MIT License + Legal Disclaimer
+│
 ├── config/
-│   └── settings.yaml         # Configuration settings
-├── checklists/               # Security checklist definitions
-│   ├── web.yaml              # Web App Security (35 tests)
-│   ├── cloud_aws.yaml        # AWS Security (40 tests)
-│   ├── wifi.yaml             # WiFi Security (38 tests)
-│   ├── firmware.yaml         # Firmware Security (44 tests)
-│   └── llm.yaml              # LLM Security (44 tests)
-├── reports/                  # Generated assessment reports
-├── templates/
-│   └── report_template.md    # Report template
-└── screenshots/              # Screenshots/documentation
+│   └── settings.yaml         # Configuration
+│
+├── checklists/               # Assessment templates
+│   ├── web.yaml              # Web security (35 tests)
+│   ├── cloud_aws.yaml        # AWS security (40 tests)
+│   ├── wifi.yaml             # WiFi security (38 tests)
+│   ├── firmware.yaml         # Firmware security (44 tests)
+│   └── llm.yaml              # LLM security (44 tests)
+│
+└── reports/                  # Generated reports
+    └── report_*.md           # Dated reports
 ```
-
-## 🔧 Configuration
-
-Edit `config/settings.yaml` to customize:
-
-```yaml
-organization: "Your Organization Name"
-version: "1.0"
-```
-
-## 📖 Checklist Format
-
-Checklists are defined in YAML format for easy customization:
-
-```yaml
-category: Web Application Security
-description: Comprehensive checklist for web application penetration testing
-version: 1.0
-
-tests:
-  - id: WEB-01
-    title: Password Strength Requirements
-    description: Verify password complexity requirements
-    severity: High  # Critical, High, Medium, Low, Info
-    category: Authentication
-```
-
-### Adding Custom Checklists
-
-1. Create a new YAML file in the `checklists/` directory
-2. Follow the format above
-3. Run the application and select your new checklist
-
-## 🔐 Best Practices
-
-### For Penetration Testers:
-- Use as a comprehensive checklist template for client assessments
-- Customize severity levels based on client risk tolerance
-- Export reports for client deliverables
-- Track evidence and findings systematically
-
-### For Security Engineers:
-- Use in security audits and compliance assessments
-- Integrate into your security review process
-- Share standardized checklists across your team
-- Track metrics over time
-
-### For DevOps/Cloud Teams:
-- Regular cloud security assessments
-- Compliance verification (SOC2, ISO27001, etc.)
-- Baseline security configuration checks
-- Documentation of security posture
-
-### For Organizations:
-- Establish security assessment standard procedures
-- Train security teams on consistent evaluation criteria
-- Create audit trails for compliance
-- Measure security improvements over time
-
-## 📊 Statistics
-
-**Total Tests Across All Checklists:** 200+
-
-| Category | Tests | Focus |
-|----------|-------|-------|
-| Web Application | 35 | OWASP Top 10 + Advanced |
-| AWS Cloud | 40 | Multi-service coverage |
-| WiFi Networks | 38 | Modern & legacy attacks |
-| Firmware | 44 | Embedded systems security |
-| LLM/AI | 44 | Emerging threat landscape |
-
-## 🛠️ Advanced Features
-
-### Batch Processing (Coming Soon)
-```bash
-python seccheckmate.py --batch --checklist web --output report.md
-```
-
-### Custom Filters (Coming Soon)
-Filter tests by severity, category, or keywords
-
-### Integration with JIRA/ServiceNow
-Export findings to ticketing systems
-
-## � Documentation
-
-| Document | Purpose |
-|----------|---------|
-| [README.md](README.md) | Main documentation & overview |
-| [QUICKSTART.md](QUICKSTART.md) | 5-minute getting started guide |
-| [INSTALL.md](INSTALL.md) | Installation & troubleshooting |
-| [SETUP.md](SETUP.md) | Configuration & setup |
-| [FEATURES.md](FEATURES.md) | Complete feature breakdown |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines |
-| [CHANGELOG.md](CHANGELOG.md) | Version history |
-| [DEPLOYMENT.md](DEPLOYMENT.md) | Release & promotion strategy |
-| [PACKAGE.md](PACKAGE.md) | Complete package summary |
-
-## �🐛 Troubleshooting
-
-### Issue: Module 'yaml' not found
-**Solution:** Install PyYAML
-```bash
-pip install -r requirements.txt
-```
-
-### Issue: Checklist not found
-**Solution:** Ensure YAML files are in the `checklists/` directory with `.yaml` extension
-
-### Issue: Report not generated
-**Solution:** Ensure `reports/` directory exists and is writable
-
-### Issue: Application hangs on input
-**Solution:** Use standard input responses: y/n/na
-
-## 🤝 Contributing
-
-We welcome contributions! To contribute:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Contribution Ideas:
-- [ ] Additional checklists (Mobile Security, API Security, etc.)
-- [ ] Enhanced reporting formats (HTML, PDF, JSON)
-- [ ] Integration with vulnerability scanners
-- [ ] Web UI for easier interaction
-- [ ] Team collaboration features
-- [ ] Database integration for historical tracking
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📧 Support
-
-- 📚 Read the [Documentation](docs/)
-- 🐛 Report bugs at [Issues](https://github.com/yourusername/seccheckmate/issues)
-- 💬 Start a [Discussion](https://github.com/yourusername/seccheckmate/discussions)
-
-## 🙏 Acknowledgments
-
-- OWASP Top 10 & Top 25
-- AWS Security Best Practices
-- NIST Cybersecurity Framework
-- Security community feedback and contributions
-- All contributors and users
-
-## 📚 References
-
-- [OWASP Top 10 2021](https://owasp.org/Top10/)
-- [AWS Security Best Practices](https://docs.aws.amazon.com/security/)
-- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [CIS Benchmarks](https://www.cisecurity.org/)
-- [WiFi Alliance Security](https://www.wi-fi.org/discover-wi-fi/security)
-
-## 💡 Tips for Success
-
-1. **Customize for Your Context** - Modify checklists based on your specific environment
-2. **Regular Updates** - Keep checklists current with latest threats and best practices
-3. **Team Training** - Ensure team understands each test case thoroughly
-4. **Evidence Collection** - Document findings with detailed notes for each test
-5. **Trend Analysis** - Track results over time to measure security improvements
-6. **Executive Reporting** - Use pass rates and severity breakdowns for management reports
 
 ---
 
-**Made with ❤️ for security professionals**
+## ❓ FAQ
 
-*Last Updated: January 2026*
+**Q: Is this an automated vulnerability scanner?**  
+A: No. It's a checklist framework requiring professional judgment.
+
+**Q: Can I test systems I don't own?**  
+A: **No.** You need explicit written permission. Unauthorized testing is illegal.
+
+**Q: What if a test doesn't apply?**  
+A: Mark it "N/A" (press Enter). Metrics calculate only for applicable tests.
+
+**Q: Can I modify checklists?**  
+A: Yes! Edit YAML files in `checklists/` folder.
+
+**Q: Does it send data online?**  
+A: No. 100% offline, all reports stay on your machine.
+
+**Q: What Python versions work?**  
+A: Python 3.10+ only. Not compatible with 3.9 or earlier.
+
+**Q: Can I contribute?**  
+A: Yes! We welcome new checklists and improvements.
+
+---
+
+## 🤝 Contributing
+
+We welcome:
+- ✅ New security checklists
+- ✅ Bug fixes and improvements
+- ✅ Documentation enhancements
+- ✅ Testing and validation
+
+Please:
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+See LICENSE file for contribution guidelines.
+
+---
+
+## 📄 License & Legal
+
+This project is licensed under the **MIT License**.
+
+**IMPORTANT:**
+- For AUTHORIZED testing ONLY
+- Read LICENSE file before use
+- You assume all legal responsibility
+- Unauthorized testing is illegal in all jurisdictions
+
+---
+
+## 📞 Support
+
+- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/amitgy/seccheckmate/issues)
+- 💬 **Questions:** [GitHub Discussions](https://github.com/amitgy/seccheckmate/discussions)
+- 📄 **Legal:** See LICENSE file
+
+---
+
+## 💡 Best Practices
+
+1. **Read test descriptions** - Understand what each validates
+2. **Document evidence** - Include URLs and configuration details
+3. **Customize severity** - Adjust for your environment context
+4. **Regular assessments** - Schedule quarterly reviews
+5. **Track metrics** - Monitor improvements over time
+6. **Share findings** - Present to relevant teams
+7. **Act on recommendations** - Fix issues systematically
+
+---
+
+## ⭐ Like This Project?
+
+Give it a **star** on GitHub!
+
+[⭐ Star SecCheckmate](https://github.com/amitgy/seccheckmate)
+
+---
+
+**Made with ❤️ by the security community**
+
+*Professional security assessment framework | Open source | MIT licensed | Privacy-first | Offline-only*
+
+---
+
+<div align="center">
+
+**[Get Started Now →](#-quick-start)** | **[View Legal Terms →](LICENSE)** | **[Contribute →](#-contributing)**
+
+Last Updated: January 19, 2026 | v1.0.0
+
+</div>

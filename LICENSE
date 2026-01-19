@@ -19,3 +19,193 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+# ⚖️ LEGAL DISCLAIMER & ASSUMPTIONS
+
+## 🚨 IMPORTANT LEGAL NOTICE
+
+SecCheckmate is a **professional security assessment framework** provided **AS-IS** for authorized security testing and educational purposes only.
+
+---
+
+## ✅ **AUTHORIZED USE ONLY**
+
+You MAY use SecCheckmate ONLY if you:
+
+### ✔️ Permitted Uses:
+- **Testing on your own systems** - Systems you own, control, or operate
+- **Authorized assessments** - With explicit, written permission from the system owner
+- **Educational purposes** - Learning about security concepts and best practices
+- **Defensive security** - Building security solutions and hardening systems
+- **Professional security work** - As part of legitimate security engagements
+
+---
+
+## ❌ **PROHIBITED USES**
+
+You MUST NOT use SecCheckmate for:
+
+- ❌ **Unauthorized testing** - Testing systems without explicit permission
+- ❌ **Malicious hacking** - Any illegal or unethical hacking activities
+- ❌ **Criminal purposes** - Any activity that violates local or international law
+- ❌ **Privacy violations** - Breaching confidentiality or accessing private data
+- ❌ **Competitive intelligence** - Illegally obtaining competitor information
+- ❌ **Denial of Service** - Causing system outages or disruptions
+- ❌ **Data theft** - Stealing, copying, or exfiltrating data
+- ❌ **Any illegal activity** - Violating laws in your jurisdiction
+
+---
+
+## 📋 **CRITICAL ASSUMPTIONS & LIMITATIONS**
+
+### 1. **Professional Assessment Tool**
+- SecCheckmate is a **checklist-based framework**, not an automated penetration testing tool
+- It relies on **manual assessment and human judgment**
+- Results are only as accurate as the tester's knowledge and experience
+- This tool is a **guideline, not a guarantee** of security posture
+
+### 2. **Test Accuracy & Validity**
+- Checklists may become outdated as security threats evolve
+- All test results should be **verified independently** by qualified security professionals
+- False positives and false negatives are possible
+- The tool does NOT provide comprehensive vulnerability scanning or exploitation
+
+### 3. **Legal & Compliance Responsibility**
+- Users are **solely responsible** for ensuring lawful use
+- Users must comply with ALL applicable laws and regulations:
+  - Local cybersecurity laws
+  - Data protection regulations (GDPR, CCPA, etc.)
+  - Computer Fraud and Abuse Act (CFAA) - USA
+  - Computer Misuse Act (CMA) - UK
+  - Similar laws in your jurisdiction
+
+### 4. **Professional Expertise Required**
+- SecCheckmate is designed for **security professionals** with domain knowledge
+- Not suitable for untrained users
+- Misinterpretation of results could lead to false conclusions
+- Professional judgment is required to act on findings
+
+### 5. **Severity Classifications**
+- Severity ratings (Critical, High, Medium, Low, Info) are **general guidelines**
+- Actual risk depends on:
+  - Your organization's threat model
+  - System criticality
+  - Business context
+  - Compensating controls
+- Always assess severity in your specific context
+
+### 6. **No Liability for Tool Misuse**
+- The authors and contributors are **NOT responsible** for:
+  - Any damage caused by unauthorized use
+  - Legal consequences of illegal testing
+  - False or misleading assessment results
+  - Any misuse of SecCheckmate
+  - System outages or data loss
+
+---
+
+## 🔐 **DATA PRIVACY & SECURITY**
+
+### No Data Collection
+- SecCheckmate operates **100% offline**
+- No data is transmitted to external servers
+- No telemetry or analytics are collected
+- Assessment reports are stored **locally only**
+
+### Report Security
+- All reports are generated locally on your system
+- You are responsible for securing your reports
+- Do not share reports containing sensitive information publicly
+
+---
+
+## 📋 **SEVERITY PARAMETERS**
+
+### 🔴 **CRITICAL Severity**
+- **Definition**: Vulnerabilities that could lead to complete system compromise
+- **Examples**: Unauthenticated access, SQL injection, hardcoded credentials, unencrypted sensitive data
+- **Action**: Remediate IMMEDIATELY (24-48 hours)
+- **Assumption**: Allows attackers to gain full control
+
+### 🟠 **HIGH Severity**
+- **Definition**: Vulnerabilities that significantly impact security
+- **Examples**: Weak authentication, missing encryption, privilege escalation
+- **Action**: Remediate urgently (1-2 weeks)
+- **Assumption**: Enables major security control bypass
+
+### 🟡 **MEDIUM Severity**
+- **Definition**: Vulnerabilities requiring exploitation chain or specific conditions
+- **Examples**: Missing security headers, weak password policies, information disclosure
+- **Action**: Plan remediation (1 month)
+- **Assumption**: Could chain with other vulnerabilities
+
+### 🟢 **LOW Severity**
+- **Definition**: Minor security issues with limited impact
+- **Examples**: Outdated non-critical software, configuration hardening opportunities
+- **Action**: Include in regular maintenance
+- **Assumption**: Impact is minimal
+
+### 🔵 **INFO/INFORMATIONAL**
+- **Definition**: Informational findings and best practice recommendations
+- **Examples**: Security policy documentation, training recommendations
+- **Action**: Track for future improvements
+- **Assumption**: Not a vulnerability
+
+---
+
+## ⚖️ **YOUR RESPONSIBILITIES**
+
+By using SecCheckmate, you agree to:
+
+1. **✅ Obtain Permission**: Ensure written authorization for all testing
+2. **✅ Follow Laws**: Comply with all applicable laws and regulations
+3. **✅ Professional Practice**: Use only if you have security expertise
+4. **✅ Secure Reports**: Protect assessment reports with proper access controls
+5. **✅ Validate Results**: Independently verify all findings
+6. **✅ Act Responsibly**: Use findings only for authorized remediation
+7. **✅ Respect Privacy**: Do not disclose private information
+8. **✅ Report Ethically**: Report vulnerabilities responsibly
+
+---
+
+## 🏢 **ORGANIZATIONAL POLICIES**
+
+Organizations using SecCheckmate should:
+
+- ✅ Establish clear authorization procedures
+- ✅ Train authorized testers on proper use
+- ✅ Document all assessments
+- ✅ Maintain secure storage of reports
+- ✅ Review and act on findings
+- ✅ Implement audit trails
+
+---
+
+## 📞 **SUPPORT & QUESTIONS**
+
+For questions about legal use:
+- Review GitHub issues and discussions
+- Check local cybersecurity laws
+- Consult with legal counsel
+- Contact security professionals
+
+---
+
+## 🎯 **ACKNOWLEDGMENT**
+
+By downloading, installing, or using SecCheckmate, you acknowledge that you have read, understood, and agree to all terms in this legal disclaimer.
+
+**You assume all legal and operational responsibility for your use of this tool.**
+
+---
+
+**Last Updated**: January 19, 2026  
+**Version**: 1.0  
+**License**: MIT
+
+---
+
+*SecCheckmate is provided by the open-source security community.*  
+*For more information, visit: https://github.com/amitgy/seccheckmate*
