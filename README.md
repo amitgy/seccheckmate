@@ -73,15 +73,6 @@ Every organization does it differently:
 | 🔧 Firmware | 44 | Boot, Debug, Credentials |
 | 🤖 LLM/AI Security | 44 | Prompts, Data, Privacy |
 
-### 🚀 Core Capabilities
-
-- ✅ **Interactive CLI** - User-friendly command-line interface
-- ✅ **Evidence Tracking** - Capture findings with detailed notes
-- ✅ **Professional Reports** - Auto-generated markdown with statistics
-- ✅ **Offline Only** - No internet, no external calls, no data collection
-- ✅ **Customizable** - Easy to modify and extend checklists
-- ✅ **Production Code** - Enterprise-grade Python implementation
-- ✅ **Zero Dependencies** - Only PyYAML & colorama
 
 ---
 
@@ -90,29 +81,6 @@ Every organization does it differently:
 ### Prerequisites
 - **Python 3.10+** (required)
 - **macOS, Linux, or Windows**
-
-### Installation
-
-```bash
-# 1. Clone repository
-git clone https://github.com/amitgy/seccheckmate.git
-cd seccheckmate
-
-# 2. Create virtual environment (recommended)
-python3 -m venv venv
-source venv/bin/activate     # macOS/Linux
-# OR
-venv\Scripts\activate         # Windows PowerShell
-# OR  
-venv\Scripts\activate.bat     # Windows CMD
-
-# 3. Install dependencies
-pip install --upgrade pip
-pip install -r requirements.txt
-
-# 4. Run assessment
-python seccheckmate.py
-```
 
 ### Run Your First Assessment
 
@@ -252,59 +220,6 @@ venv\Scripts\activate.bat
 
 pip install -r requirements.txt
 python seccheckmate.py
-```
-
-### Verify Installation
-
-```bash
-# Test Python version
-python --version  # Should show 3.10+
-
-# Test dependencies
-python -c "import yaml; import colorama; print('✅ OK')"
-
-# Run application
-python seccheckmate.py
-# Press 5 to exit
-```
-
-### Troubleshooting
-
-**Python Not Found**
-```bash
-# Check your Python version
-python3 --version
-
-# If not installed:
-# macOS: brew install python3
-# Linux: sudo apt install python3
-# Windows: Download from https://www.python.org/downloads/
-```
-
-**Module Import Error**
-```bash
-# Ensure virtual environment is activated
-source venv/bin/activate  # macOS/Linux
-# venv\Scripts\activate   # Windows
-
-# Reinstall dependencies
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-**Permission Denied (macOS/Linux)**
-```bash
-chmod +x seccheckmate.py
-python3 seccheckmate.py
-```
-
-**Virtual Environment Issues**
-```bash
-# Remove and recreate
-rm -rf venv/
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
 ```
 
 ---
